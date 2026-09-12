@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Universal AI Exporter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<nav>
+  <a class="brand" href="./">Universal AI Exporter</a>
+  <a href="privacy" aria-current="page">Privacy</a>
+  <a href="terms">Terms</a>
+</nav>
+
+<h1>Privacy Policy</h1>
+<p class="dates"><strong>Effective Date:</strong> August 28, 2026<br><strong>Last Updated:</strong> September 13, 2026</p>
+
+<p>Universal AI Exporter is built from the ground up with a strict <strong>zero-data-collection, client-side privacy architecture</strong>. We believe your private AI conversations, research prompts, code snippets, and thinking traces should remain entirely under your personal control.</p>
+
+<h2>1. Zero Remote Data Collection &amp; Zero Telemetry</h2>
+<ul>
+  <li><strong>0 Outbound Network Requests:</strong> Universal AI Exporter does not transmit any conversation text, prompts, code blocks, metadata, or browser details to external servers.</li>
+  <li><strong>0 Analytics or Tracking:</strong> We do not use Google Analytics, Mixpanel, Sentry, tracking pixels, or any third-party telemetry tools.</li>
+  <li><strong>0 Remote Code Execution:</strong> All rendering and parsing code (<code>turndown</code>, cryptographic verifiers, PDF page layout) is 100% bundled locally within the extension package. PDFs are saved through your browser's built-in print dialog.</li>
+</ul>
+
+<h2>2. How Your Data is Processed</h2>
+<ul>
+  <li><strong>Local In-Memory (RAM) Processing:</strong> When you click to export a conversation, DOM parsing, Markdown generation, PDF rendering, and CSV table extraction happen strictly within your local browser's volatile memory.</li>
+  <li><strong>No Cloud Storage:</strong> We do not store, index, or cache your chats on any remote server or database. Once you download your document or close the tab, the in-memory data is cleared.</li>
+</ul>
+
+<h2>3. Local Browser Storage (<code>chrome.storage.local</code>)</h2>
+<p>The extension uses the browser's local storage API exclusively to persist your local user preferences:</p>
+<ul>
+  <li>Your chosen PDF visual theme (Executive Light, Midnight Dark, or Academic Paper).</li>
+  <li>Your export option toggles (e.g. YAML Frontmatter, reasoning callouts, citation links).</li>
+  <li>Your local export counter (used to track local milestone counts).</li>
+  <li>Your activated offline Supporter License Key (if activated).</li>
+</ul>
+<p>This data never leaves your personal device.</p>
+
+<h2>4. Payment &amp; License Information</h2>
+<p>Optional Lifetime Supporter Licenses are processed securely by <strong>Lemon Squeezy</strong>, acting as our Merchant of Record.</p>
+<ul>
+  <li>Payment information (such as credit card numbers or billing addresses) is handled directly and securely by Lemon Squeezy and is never seen, processed, or stored by the Universal AI Exporter extension.</li>
+  <li>License key verification is performed <strong>100% offline</strong> on your device using the browser's native Web Crypto API (Ed25519 asymmetric cryptography) with zero server validation requests.</li>
+</ul>
+
+<h2>5. Contact</h2>
+<p>If you have any questions about this Privacy Policy or the security of Universal AI Exporter, please open an issue on GitHub:</p>
+<ul>
+  <li><strong>Questions:</strong> <a href="https://github.com/amanolo/universal-ai-exporter-site/issues">github.com/amanolo/universal-ai-exporter-site/issues</a></li>
+</ul>
+<p>Issues are public, so please do not include order numbers or personal details. For billing problems, use the contact details on your Lemon Squeezy receipt.</p>
+
+<footer>Universal AI Exporter · <a href="terms">Terms</a></footer>
+</div>
+</body>
+</html>

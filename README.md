@@ -1,7 +1,7 @@
 # Universal AI Exporter
 
-Policy pages and support for **Universal AI Exporter**, a browser extension that exports chats from ChatGPT, Claude,
-Perplexity, DeepSeek and Google Gemini to PDF, Markdown and CSV. Everything runs inside your browser: no servers, no
+Policy pages and support for **Universal AI Exporter**, a browser extension that exports chats from ChatGPT, Claude
+and Google Gemini to PDF, Markdown and CSV. Everything runs inside your browser: no servers, no
 tracking, no data collection.
 
 This repository only holds the small website at https://amanolo.github.io/universal-ai-exporter-site/. The extension's

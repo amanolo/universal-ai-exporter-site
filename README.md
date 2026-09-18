@@ -9,7 +9,7 @@ source code is not here.
 
 ## Install
 
-- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/universal-ai-exporter/)
+- [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/universal-ai-exporter/?utm_source=github)
 - [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/universal-ai-exporter/mkmagoohhnhbpbaamhmkaibepliojhjb)
 
 ## Policies

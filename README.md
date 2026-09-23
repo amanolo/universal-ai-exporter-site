@@ -9,6 +9,7 @@ source code is not here.
 
 ## Install
 
+- [Chrome Web Store](https://chromewebstore.google.com/detail/universal-ai-exporter-cha/jpmklbmdhkffcodcdfhaepbnchjcjdda?utm_source=github)
 - [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/universal-ai-exporter/?utm_source=github)
 - [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/universal-ai-exporter/mkmagoohhnhbpbaamhmkaibepliojhjb)
 
@@ -24,3 +25,8 @@ used, and what you expected to happen. Issues are public, so please do not inclu
 other personal details.
 
 Billing problems: use the contact details on your Lemon Squeezy receipt.
+
+## Maintainer note
+
+Do not delete `google019e700e5fa55878.html`. It proves ownership of this site to Google Search Console, which keeps
+re-checking it; without it the site loses verification and the Chrome Web Store listing loses its Official URL.
